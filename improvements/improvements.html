@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Accessibility assessment edits</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+  
+  </head>
+
+  <body>
+    <header class="header">
+        <h1>Updates Applied</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="https://loganmaak.github.io/">Home</a></li>
+        <li><a href="../index.html">Original Site</a></li>
+        <li><a href="../original/assessment-files/index.html">Revised Site</a></li>
+        <li><a href="improvements.html">Improvements</a></li>
+      </ul>
+    </nav>
+
+    <main>
+    <article>
+    <h3>Summary of updates:</h3>
+    <ul>
+    <li>Changed background color to be a much lighter green, enabling the dark grey text to be more easily read (contrast ratio of 13.14:1).</li>
+    <li>Changed the basic div tags to nav tags, as well as deleting the br tags and adding p tags to make the content more screen reader friendly.</li>
+    <li>Changed the css selectors from id selected elements to h1, h2 etc.</li>
+    <li>Added alt atributes to the images to make them screen reader friendly.</li>
+    <li>Added a custom buttons to the audio player to support screen readers and older browsers.</li>
+    <li>Added the role attribute to the search form, as well as the aria-attribute to the search input box.</li>
+    <li>Added the role attribut to the comment form, as well as aria-attribute to both input boxes, as well as adding the label tag to the text labels.</li>
+    <li>Added the tabindex attribut, set to 0, to the show comment buttons, as well as adding the needed javascipt to make the button function when Enter is pressed while it has focus.</li>
+    <li>Added a caption to the table describing what information is being presented, changed all headings from td to th tags as well as indicating whether it was a row or column using the scope attribute.</li>
+    <li>Changed the font size and weight of the overall text to be more legible for the vision impared.
+    </ul>
+    <figure>
+    <img src="../media/issues.png" alt="A screen grab of the original site.">
+    <figcaption>Original Site</figcaption>
+    </figure>
+    </article>
+    </main>
